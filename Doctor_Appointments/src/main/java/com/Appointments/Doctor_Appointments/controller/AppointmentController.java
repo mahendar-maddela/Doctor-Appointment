@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins ="http://localhost:3000")
+@CrossOrigin(origins ="http://localhost:30003")
 @RestController
 @RequestMapping("/api/v1")
 public class AppointmentController {
